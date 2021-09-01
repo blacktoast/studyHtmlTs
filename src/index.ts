@@ -1,8 +1,29 @@
-document.getElementById("app").innerHTML = `
-<h1>Hello Parcel!</h1>
-<div>
-  Look
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>
-  for more info about Paaarcel.tttt
-</div>
-`;
+function p(str: any): void {
+  console.log(str);
+}
+
+let list = {
+  value: 1,
+  next: {
+    value: 2,
+    next: {
+      value: 3,
+      next: null
+    }
+  }
+};
+
+//p(list);
+
+function checkList(list: any): void {
+  p(list.value);
+}
+
+checkList(list);
+let test = {
+  name: "john"
+};
+let testMap = new Map();
+testMap.set(test, "...");
+test = null;
+p("test");
