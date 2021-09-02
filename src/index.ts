@@ -1,5 +1,3 @@
-import { twoFer } from "./tow-fer";
-
 function p(str: any): void {
   console.log(str);
 }
