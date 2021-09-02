@@ -1,3 +1,5 @@
+import { twoFer } from "./tow-fer";
+
 function p(str: any): void {
   console.log(str);
 }
@@ -15,9 +17,7 @@ let list = {
 
 //p(list);
 
-function checkList(list: any): void {
-  p(list.value);
-}
+function checkList(list: any): void {}
 
 checkList(list);
 let test = {
@@ -26,4 +26,6 @@ let test = {
 let testMap = new Map();
 testMap.set(test, "...");
 test = null;
-p("test");
+
+//test ...towFer.ts
+p(twoFer("ts"));
