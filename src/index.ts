@@ -26,4 +26,3 @@ testMap.set(test, "...");
 test = null;
 
 //test ...towFer.ts
-p(twoFer("ts"));
