@@ -1,6 +1,4 @@
-function p(str: any): void {
-  console.log(str);
-}
+
 
 let list = {
   value: 1,
@@ -23,6 +21,5 @@ let test = {
 };
 let testMap = new Map();
 testMap.set(test, "...");
-test = null;
 
 //test ...towFer.ts
