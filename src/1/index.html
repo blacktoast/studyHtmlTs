@@ -40,7 +40,7 @@
         <kbd>K</kbd>
         <span class="sound">tom</span>
       </div>
-      <div data-key="76" class="key">
+      <div data-key="76" class="key playing">
         <kbd>L</kbd>
         <span class="sound">tink</span>
       </div>
@@ -57,10 +57,12 @@
     <audio data-key="76" src="sounds/tink.wav"></audio>
 
     <script>
-      let a = "test";
-      console.log(a);
+      let playSound = (e) => {};
 
-      const button = document.querySelectorAll(".key");
+      let terminated = () => {};
+
+      const keys = Array.from(document.querySelectorAll(".key"));
+      keys.forEach((e) => {});
     </script>
   </body>
 </html>
